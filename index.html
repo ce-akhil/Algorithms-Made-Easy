@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<head>
+    <title>Algorithm Visualization</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+<h1 class="is-centered">Visualize Algorithms</h1>
+<h2 class="is-centered">Current view : <span id="current-view">down</span></h2>
+<div class="wrapper" id="wrapper">
+    <div class="bars" id="bars"></div>
+</div>
+
+<div class="is-centered">
+    <label for="array">Array: </label><input id="array" placeholder="e.g. 2,4,2" type="text">
+    <button class="button-primary" id="btn" onclick="CreateArray()">Make Array</button>
+    <br>
+    <br>
+    <button class="button-primary" id="btn2" onclick="RandomArray()">Random Array</button>
+    <button class="button-primary" id="btn3" onclick="SwitchView()">UpSideDown</button>
+    <!-- <a id="btns" style="padding:12px; text-decoration:none; color:white; border:0px; background:#2979ff" href="index1.html">Down</a> -->
+    <button class="button-sort" id="sort" onclick="SelectionSort()">Selection Sort</button>
+    <button class="button-sort" id="insertSort" onclick="InsertionSort()">Insertion Sort</button>
+    <button class="button-sort" id="bsort" onclick="BubbleSort()">Bubble Sort</button>
+    <button class="button-sort" id="Obsort" onclick="OBubbleSort()">Optimized Bubble Sort</button>
+    <button class="button-sort" id="MergeSort" onclick="mergeSortFunction()">Merge Sort</button>
+    <button class="button-sort" id="Quicksort" onclick="Quicksort()">Quick sort</button>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>
