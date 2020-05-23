@@ -8,6 +8,7 @@ A tool which provides data visualization to algorithms. Current features:
 * Bubble Sort
 * Optimized Bubble Sort
 * Merge Sort
+* Quick Sort
 
 ## Clone Directions
 ``` git@github.com:ce-akhil/Algorithms-Made-Easy.git ```
