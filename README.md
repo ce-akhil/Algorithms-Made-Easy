@@ -10,7 +10,7 @@ A tool which provides data visualization to algorithms. Current features:
 * Merge Sort
 
 ## Clone Directions
-``` git clone https://github.com/tanwanimohit/visualize-algorithms.git ```
+``` git@github.com:ce-akhil/Algorithms-Made-Easy.git ```
 
 ## How to contribute
 1. Fork the repo
